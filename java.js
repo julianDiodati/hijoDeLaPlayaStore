@@ -5,8 +5,8 @@ const productos = [
         categoria: "tecnologia",
         imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774461725/D_NQ_NP_2X_675525-MLA99461311188_112025-F_zjx8ci.webp",
         titulo: "Smart TV 43 TCL Full HD QLED 43S5K Google Tv Dolby Audio",
-        precio: "$499.999",
-        precioAntiguo: "$419.999",
+        precio: "$419.999",
+        precioAntiguo: "$499.999",
         descuento: "16% OFF",
         link: "https://meli.la/1xvbP5y",
         envioGratis: true,
@@ -14,12 +14,12 @@ const productos = [
     },
     {
         categoria: "tecnologia",
-        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_614463-MLM72961415910_122023-F.webp",
-        titulo: "Samsung Galaxy S24 Ultra 512GB Titanio Negro",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774537271/D_NQ_NP_2X_715041-MLA99473286046_112025-F_puo1cc.webp",
+        titulo: "Smart Tv Noblex 65 Uhd 4k Google Tv Bluetooth Hdmi Usb Dv65x8580",
         precio: "$1.899.999",
         precioAntiguo: "$2.299.999",
         descuento: "17% OFF",
-        link: "https://meli.la/1STk82i",
+        link: "https://meli.la/1MCSiq4",
         envioGratis: true,
         calificacion: 4.8
     },
@@ -100,7 +100,9 @@ function renderizarProductos(productos) {
 
     grid.innerHTML = productos.map(producto => `
         <div class="product-card">
-            <img src="${producto.imagen}" alt="${producto.titulo}" class="product-image" onclick="window.open('${producto.link}', '_blank')">
+            <div class="product-image-container">
+                <img src="${producto.imagen}" alt="${producto.titulo}" class="product-image" onclick="window.open('${producto.link}', '_blank')">
+            </div>
             <div class="product-info">
                 <h3 class="product-title">${producto.titulo}</h3>
                 <div class="product-price">

@@ -92,7 +92,7 @@ body {
 
 .search-box {
     position: relative;
-    min-width: 250px;
+    min-width:150px;
 }
 
 .search-input {
@@ -139,10 +139,19 @@ body {
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
 
+.product-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    height: 240px;
+    padding: 1rem;
+}
+
 .product-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    max-width: 80%;
+    max-height: 200px;
+    object-fit: contain;
     cursor: pointer;
 }
 
@@ -151,11 +160,11 @@ body {
 }
 
 .product-title {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.rem;
+    font-weight: 550px;
     margin-bottom: 0.5rem;
     line-height: 1.4;
-    height: 3.5em;
+    height: rem;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -163,7 +172,7 @@ body {
 }
 
 .product-price {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #e28419;
     margin-bottom: 0.5rem;
@@ -188,7 +197,7 @@ body {
 
 .buy-btn {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     background: linear-gradient(45deg, #e28419, #f5a839);
     color: white;
     border: none;
@@ -212,7 +221,7 @@ body {
 .free-shipping {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.3rem;
     color: #e28419;
     font-size: 0.9rem;
     margin-bottom: 1rem;
