@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDLP Store</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dmhmynwqc/image/upload/v1774449587/WhatsApp_Image_2026-03-25_at_11.33.40-removebg-preview_eyasrz.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="content-logo">
+                     <img src="https://res.cloudinary.com/dmhmynwqc/image/upload/v1774449587/WhatsApp_Image_2026-03-25_at_11.33.40-removebg-preview_eyasrz.png"  alt="logo">
+                    <a href="#" class="logo">
+                    HDLP Store
+                </a></div>
+                
+                
+                <!-- CATEGORÍAS -->
+                <nav class="categories-nav">
+                    <button class="category-btn active" data-categoria="todas">
+                        <i class="fas fa-th-large"></i> Todas
+                    </button>
+                    <button class="category-btn" data-categoria="tecnologia">
+                        <i class="fas fa-laptop"></i> Tecnología
+                    </button>
+                    <button class="category-btn" data-categoria="herramientas">
+                        <i class="fas fa-tools"></i> Herramientas
+                    </button>
+                    <button class="category-btn" data-categoria="hogar">
+                        <i class="fas fa-home"></i> Hogar
+                    </button>
+                    <button class="category-btn" data-categoria="zapatillas">
+                        <i class="fas fa-shoe-prints"></i> Zapatillas
+                    </button>
+                </nav>
+                
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Buscar productos...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i> Cargando ofertas...
+        </div>
+        <div class="products-grid" id="productsGrid" style="display: none;"></div>
+        <div class="no-products" id="noProducts" style="display: none;">
+            <i class="fas fa-search"></i><br>
+            No se encontraron productos
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
