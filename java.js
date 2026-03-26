@@ -25,25 +25,25 @@ const productos = [
     },
     {
         categoria: "tecnologia",
-        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_995184-MLM74723498746_03_024-F.webp",
-        titulo: "Notebook Gamer Lenovo LOQ i5 12ma Gen RTX 4050 ",
-        precio: "$1.199.999",
-        precioAntiguo: "$1.499.999",
-        descuento: "20% OFF",
-        link: "TU_LINK_AFILIADO_3_AQUI",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_801835-MLA96126700023_102025-F.webp",
+        titulo: "Smart TV QLED 55 pulgadas 4K 55C655A Google TV 120Hz TCL",
+        precio: "$799.999",
+        precioAntiguo: "$899.999",
+        descuento: "11% OFF",
+        link: "https://meli.la/2tu8enm",
         envioGratis: true,
-        calificacion: 4.7
+        calificacion: 4.8
     },
     {
         categoria: "tecnologia",
-        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_630697-MLM74723498746_03_024-F.webp",
-        titulo: "Auriculares Sony WH-1000XM5 Noise Cancelling",
-        precio: "$399.999",
-        precioAntiguo: "$499.999",
-        descuento: "20% OFF",
-        link: "TU_LINK_AFILIADO_4_AQUI",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_939049-MLA98258256533_112025-F.webp",
+        titulo: "Smart TV RCA 55 LED Google TV 4K G55P7UHD-F",
+        precio: "$699.999",
+        precioAntiguo: "$999.999",
+        descuento: "30% OFF",
+        link: "https://meli.la/2tu8enm",
         envioGratis: true,
-        calificacion: 4.9
+        calificacion: 4.6
     },
     // HERRAMIENTAS
     {
