@@ -21,29 +21,95 @@ const productos = [
         descuento: "17% OFF",
         link: "https://meli.la/1MCSiq4",
         envioGratis: true,
-        calificacion: 4.8
+        calificacion: 5
     },
     {
         categoria: "tecnologia",
-        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_801835-MLA96126700023_102025-F.webp",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774547793/D_NQ_NP_2X_801835-MLA96126700023_102025-F_iqfbdw.webp",
         titulo: "Smart TV QLED 55 pulgadas 4K 55C655A Google TV 120Hz TCL",
         precio: "$799.999",
         precioAntiguo: "$899.999",
         descuento: "11% OFF",
         link: "https://meli.la/2tu8enm",
         envioGratis: true,
-        calificacion: 4.8
+        calificacion: 4.7
     },
     {
         categoria: "tecnologia",
-        imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_939049-MLA98258256533_112025-F.webp",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774547848/D_NQ_NP_2X_939049-MLA98258256533_112025-F_w6uvda.webp",
         titulo: "Smart TV RCA 55 LED Google TV 4K G55P7UHD-F",
         precio: "$699.999",
         precioAntiguo: "$999.999",
         descuento: "30% OFF",
         link: "https://meli.la/2tu8enm",
         envioGratis: true,
+        calificacion: 4.7
+    },
+{
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774548032/D_NQ_NP_2X_853184-MLA99505241442_112025-F_iuixjo.webp",
+        titulo: "Led Smart TV 43 RCA R43gl100 Google",
+        precio: "$410.000",
+        precioAntiguo: "$459.999",
+        descuento: "10% OFF",
+        link: "https://meli.la/1wCdX7Z",
+        envioGratis: true,
         calificacion: 4.6
+    },
+    {
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774547893/D_NQ_NP_2X_919222-MLA99475874918_112025-F_gebpws.webp",
+        titulo: "Smart Tv Samsung 50 Uhd 4k 50u8000f",
+        precio: "$639.999",
+        precioAntiguo: "$899.999",
+        descuento: "28% OFF",
+        link: "https://meli.la/1xiBHd2",
+        envioGratis: true,
+        calificacion: 4.9
+    },
+    {
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774548070/D_NQ_NP_2X_693564-MLA99977285891_112025-F_yfeskm.webp",
+        titulo: "Smart Tv Quint 55 Pulgadas, Sistema Operativo Google Tv",
+        precio: "$899.999",
+        precioAntiguo: "$1.099.999",
+        descuento: "18% OFF",
+        link: "https://meli.la/1jjA8M2",
+        envioGratis: true,
+        calificacion: 4.6
+    },
+    {
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774548121/D_NQ_NP_2X_989662-MLA99507690888_112025-F_fh8kcm.webp",
+        titulo: "Smart Tv Hqs Hqs50x6500 50 Pulgadas 4k Led",
+        precio: "$434.099",
+        precioAntiguo: "$613.599",
+        descuento: "29% OFF",
+        link: "https://meli.la/1N7GUER",
+        envioGratis: true,
+        calificacion: 4.8
+    },
+    {
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774547726/D_NQ_NP_2X_848686-MLA99382703094_112025-F_lpkwdu.webp",
+        titulo: "Smart Tv Led 50 Motorola 4k 91MT5000",
+        precio: "$674.499",
+        precioAntiguo: "$1.099.999",
+        descuento: "38% OFF",
+        link: "https://meli.la/1CrQaDY",
+        envioGratis: true,
+        calificacion: 4.8
+    },
+    {
+        categoria: "tecnologia",
+        imagen: "https://res.cloudinary.com/dmhmynwqc/image/upload/v1774548400/D_NQ_NP_2X_893539-MLA107110980718_022026-F_robudf.webp",
+        titulo: "Smart TV 50” Gadnic FHD Pulgadas WiFi Procesador Quad Core Sonido Estéreo 20W",
+        precio: "$465.699",
+        precioAntiguo: "$699.999",
+        descuento: "38% OFF",
+        link: "https://meli.la/1CrQaDY",
+        envioGratis: true,
+        calificacion: 4.3
     },
     // HERRAMIENTAS
     {
