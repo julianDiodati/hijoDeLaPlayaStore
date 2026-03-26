@@ -26,7 +26,7 @@ const productos = [
     {
         categoria: "tecnologia",
         imagen: "https://http2.mlstatic.com/D_NQ_NP_2X_995184-MLM74723498746_03_024-F.webp",
-        titulo: "Notebook Gamer Lenovo LOQ i5 12ma Gen RTX 4050",
+        titulo: "Notebook Gamer Lenovo LOQ i5 12ma Gen RTX 4050 ",
         precio: "$1.199.999",
         precioAntiguo: "$1.499.999",
         descuento: "20% OFF",

@@ -160,11 +160,11 @@ body {
 }
 
 .product-title {
-    font-size: 1.rem;
+    font-size: 1.1rem;
     font-weight: 550px;
     margin-bottom: 0.5rem;
-    line-height: 1.4;
-    height: rem;
+    line-height: 1.5;
+    min-height: 4.95rem;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
